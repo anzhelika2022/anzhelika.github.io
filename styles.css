@@ -1,0 +1,439 @@
+*{
+   margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    
+    
+}
+.main{
+    
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    overflow: hidden;
+    background: white; 
+     background-color: gainsboro;
+}
+nav{
+    width: 90%;
+    position: sticky;
+    margin: 20px  auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    
+}
+.home{
+    flex-basis: 20%;
+    
+}
+.home img{
+    width: 30px;
+    position: absolute;
+    right: 1250px;
+    top: 10px;
+}
+
+.home img ul li {
+   list-style: none;
+    display:inline-block;
+    margin: 0 20px; 
+    
+}
+
+#section0{
+       height: 700px;
+    display: inline-block;
+    width: 100%;
+ 
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    font-size: 16pt;
+ 
+    
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+    font-weight: bold;
+  
+}
+.nav-links ul li a{
+      text-decoration: none;
+    color: #000000;
+      
+    
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #88c;
+}
+     
+  
+.feature-img{
+    height: 70%;
+    position:absolute;
+    bottom: 100px;
+    right:-150px;
+    
+}
+.name-img{   
+    height: 240px;
+    position:absolute;
+    bottom: 100px;
+    right: 87px;
+
+
+    
+}
+    
+html{
+    scroll-behavior: smooth;
+}
+
+    
+    
+}
+#section1{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+  
+}
+
+    
+.tree-img{
+    width: 100%;
+      position: relative;
+  text-align: center;
+  color: white;
+    
+}
+
+.top-left {
+  position: absolute;
+  top: 730px;
+  left: 500px;
+  font-family: roboto; 
+    font-size: 25pt;
+    font-weight: bold;
+    color: white;
+}
+.abouttext {
+     position: absolute;
+  top: 800px;
+  left: 500px;
+    font-family: roboto;
+    color: white;
+    
+}
+
+.formacao {
+    
+    position: absolute;
+  top: 1020px;
+  left: 180px;
+    font-family: roboto;
+      font-size: 25pt;
+    font-weight: bold;
+    color: white;
+    
+}
+.formacaotext {
+    
+    position: absolute;
+  top: 1060px;
+  left: 180px;
+    font-family: roboto;
+    color: white;
+}
+
+.compet {
+    position: absolute;
+  top: 1020px;
+  left: 500px;
+  font-family: roboto; 
+    font-size: 25pt;
+    font-weight: bold;
+    color: white; 
+    
+}
+
+.competext {
+    position: absolute;
+  top: 1060px;
+  left: 500px;
+    font-family: roboto;
+    color: white;
+    
+}
+
+.face {
+  position: absolute;
+  top: 700px;
+  left: 160px;
+    width: 250px;
+}
+
+nav{
+    width:100%;
+    background: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: -20px;
+    height: 50px;
+   
+    
+}
+#section2{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+    background-color:#332649;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+    
+.campo{
+ position: absolute;
+     width:275px;
+    bottom: 295px;
+    left: 10px;
+}
+.lightbox {
+display: none;
+position: fixed;
+z-index:999;
+width:100%;
+text-align: center;
+    top:0;
+    left:0;
+    
+    }
+.lightbox img{
+    max-width:90%;
+    max-height: 80%;
+    margin-top: 2%;
+}
+
+.lightbox:target{
+    outline:none;
+    display:block;
+    
+}
+.bus{
+     position: absolute;
+     width:300px;
+    left:325px;
+    bottom: 300px;
+}
+.lightbox2 {
+display: none;
+position: fixed;
+z-index:999;
+width:100%;
+text-align: center;
+    top:0;
+    left:0;
+    
+    }
+.lightbox2 img{
+    max-width:90%;
+    max-height: 80%;
+    margin-top: 2%;
+}
+
+.lightbox2:target{
+    outline:none;
+    display:block;
+    
+}
+
+.lightbox3 {
+display: none;
+position: fixed;
+z-index:999;
+width:50%;
+text-align: center;
+    top:0;
+    left:300px;
+    
+    }
+.lightbox3 img{
+    max-width:60%;
+    max-height: 40%;
+    margin-top: 2%;
+}
+
+.lightbox3:target{
+    outline:none;
+    display:block;
+    
+}
+
+.lightbox4 {
+display: none;
+position: fixed;
+z-index:999;
+width:100%;
+text-align: center;
+    top:0;
+    left:0;
+    
+    }
+.lightbox4 img{
+    max-width:90%;
+    max-height: 80%;
+    margin-top: 2%;
+}
+
+.lightbox4:target{
+    outline:none;
+    display:block;
+    
+}
+.poster{
+     position: absolute;
+     width:175px;
+    left:670px;
+    bottom: 300px;
+}
+.cais{
+     position: absolute;
+     width:405px;
+    left:900px;
+    bottom: 300px;
+}
+
+.works {
+  position: absolute;
+  bottom: 600px;
+  left: 540px;
+  font-family: roboto; 
+    font-size: 25pt;
+    font-weight: bold;
+    color: white;
+}
+.text1 {
+  position: absolute;
+  font-family: roboto; 
+    font-size: 12pt;
+    font-weight: normal;
+    color: white;
+     left:10px;
+    bottom: 270px;
+}
+.text2 {
+  position: absolute;
+  bottom: 270px;
+  left: 325px;
+  font-family: roboto; 
+    font-size: 12pt;
+    font-weight: normal;
+    color: white;
+}
+.text3 {
+  position: absolute;
+  bottom: 270px;
+  left: 670px;
+  font-family: roboto; 
+    font-size: 12pt;
+    font-weight: normal;
+    color: white;
+}
+.text4 {
+  position: absolute;
+  bottom: 270px;
+  left: 900px;
+  font-family: roboto; 
+    font-size: 12pt;
+    font-weight: normal;
+    color: white;
+}
+
+#section3{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+}
+
+.beach-img{
+    width:100%;
+
+
+}
+
+.insta {
+    position: absolute;
+  top: 2366px;
+  left: 710px;
+    width:8%;
+  
+   
+}
+
+.linked {
+     position: absolute;
+  top: 2355px;
+  left: 420px;
+    width:9%;
+}
+
+.beha{
+    position: absolute;
+  top: 2367px;
+  left: 570px;
+    width:8%;
+    
+}
+.email{
+     position: absolute;
+  top: 2300px;
+  left: 510px;
+font-family: roboto;
+    font-size: 16pt;
+    color:white
+}
+
+.copyright{
+    position: absolute;
+      padding-top: 50px;
+  padding-right: 610px;
+  padding-bottom: 70px;
+  padding-left: 700px;
+ background-color: black;
+     overflow: hidden;
+    
+    
+    
+}
+.copy{
+    position: absolute;
+    color: white;
+      left: 550px;
+        
+}
+
+
